@@ -1,5 +1,10 @@
 {
   "dependencies": {
+    "parcel-bundler": "^1.12.5",
     "redux": "^4.2.0"
-  }
+  },
+  "name": "vanila-redux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
 }
