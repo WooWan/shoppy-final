@@ -1,0 +1,26 @@
+@value mediaQuery from '../../common/size.css';
+
+.maker {
+  width: 100%;
+  height: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.container {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+@media screen and (max-width: mediaQuery) {
+  .container {
+    flex-direction: column;
+  }
+}
