@@ -1,0 +1,41 @@
+.base {
+    font-size:1rem;
+    outline: none;
+    border: none;
+}
+
+.primary {
+    background-color: rgb(38,205,149);
+    border-color: #007bff;
+    &:hover{
+        background-color: #23AF7E;
+     }
+}
+
+.basic {
+    background-color: #f9f9f9;
+    color: rgb(38,205,149);
+    border: 1px solid rgb(38,205,149);
+    &:hover{
+    }
+}
+
+.danger {
+    background-color: #DB4C39;
+    border-color: #6c757d;
+    color: white;
+}
+
+.small {
+    width: 4rem;
+    /*padding: 1rem;*/
+    font-size: 0.75rem
+}
+
+.medium {
+    /*padding: 1rem 3rem;*/
+    font-weight: bold;
+    width: 6rem;
+    font-size: 1rem;
+}
+
